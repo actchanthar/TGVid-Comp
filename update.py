@@ -4,7 +4,7 @@ import subprocess
 
 # ©GKBOTZ
 UPSTREAM_REPO = os.environ.get('UPSTREAM_REPO', 'https://github.com/actchanthar/TGVid-Comp')
-UPSTREAM_BRANCH = os.environ.get('UPSTREAM_BRANCH', 'main')
+UPSTREAM_BRANCH = os.environ.get('UPSTREAM_BRANCH', 'master')
 try:
     if len(UPSTREAM_REPO) == 0:
        raise TypeError
